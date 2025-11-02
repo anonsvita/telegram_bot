@@ -1,0 +1,14 @@
+[project]
+name = "assistant"
+version = "2.1.0"
+description = "for_translater_HSE"
+authors = [{ name = "Vitaly Kuzmin" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+  "aiogram[fast] (>=3.22,<4.0)",
+  "faster-whisper>=1.2",
+  "deep-translator>=1.11.4",
+  "python-dotenv>=1.0"
+]

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.python-version
+.env
+.venv/
+venv/
+ENV/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Секреты и конфигурации окружения
+.env.local
+.env.*.local
+.env
+*.pem
+*.key
+*.crt
+
+# Временные файлы
+*.tmp
